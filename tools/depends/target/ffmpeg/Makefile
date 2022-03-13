@@ -1,6 +1,6 @@
-include ../../Makefile.include
-include FFMPEG-VERSION ../../download-files.include
-DEPS = ../../Makefile.include FFMPEG-VERSION Makefile ../../download-files.include
+-include ../../Makefile.include
+include FFMPEG-VERSION
+DEPS = Makefile FFMPEG-VERSION ../../download-files.include
 
 BUILD_TYPE = Release
 ifeq ($(DEBUG_BUILD),yes)
