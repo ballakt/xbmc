@@ -1,6 +1,5 @@
-include ../../Makefile.include
-include FFMPEG-VERSION
-DEPS= ../../Makefile.include FFMPEG-VERSION Makefile
+-include ../../Makefile.include
+DEPS=Makefile
 
 # set to "yes" to enable patching
 # we don't apply patches until we move to a vanilla ffmpeg tarball
